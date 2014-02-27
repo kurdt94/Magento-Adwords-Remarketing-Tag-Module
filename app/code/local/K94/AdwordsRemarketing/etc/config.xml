@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <K94_AdwordsRemarketing>
+            <version>0.0.1</version>
+        </K94_AdwordsRemarketing>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <k94_adwordsremarketing>
+                    <file>k94_adwordsremarketing.xml</file>
+                </k94_adwordsremarketing>
+            </updates>
+        </layout>
+    </frontend>
+<adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <adwordsremarketing>
+                                        <title>K94 - Adwords Remarketing</title>
+                                    </adwordsremarketing>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+</config>

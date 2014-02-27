@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="before_body_end">
+            <block  type="core/template" name="adwords_remarketing">
+                <action method="setTemplate">
+                    <template>adwordsremarketing/adwords.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </default>
+</layout>

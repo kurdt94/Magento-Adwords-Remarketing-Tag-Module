@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+        <K94_AdwordsRemarketing>
+            <active>true</active>
+            <codePool>local</codePool>
+        </K94_AdwordsRemarketing>
+     </modules>
+</config>

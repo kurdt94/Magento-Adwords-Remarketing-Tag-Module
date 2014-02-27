@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <adwordsremarketing>
+            <label>K94 Adwords Remarketing</label>
+            <sort_order>1985</sort_order>
+        </adwordsremarketing>
+    </tabs>
+	<sections>
+        	<adwordsremarketing translate="label">
+            <label>Adwords Remarketing Options</label>
+            <tab>adwordsremarketing</tab>
+            <sort_order>1985</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            		<groups>
+                	<adwordsremarketing_group translate="label">
+                    <label>Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                    	  <enable translate="label">
+                            <label>Switch On / Off: </label>
+                            <comment></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+			    <source_model>adminhtml/system_config_source_enabledisable</source_model>                     
+                        </enable>
+                        <adwordsremarketing_input translate="label">
+                            <label>Conversion ID</label>
+                            <comment>The unique number that's specific to your AdWords account</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </adwordsremarketing_input>
+                    </fields>
+               		 </adwordsremarketing_group>
+           		 </groups>
+        	</adwordsremarketing>
+	</sections>
+</config>
+
+
