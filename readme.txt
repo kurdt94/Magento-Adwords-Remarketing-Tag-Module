@@ -1,16 +1,20 @@
 Adwords Remarketing 
 kurdt94@gmail.com
 
-versie : 0.0.1
-datum uitgave : 27 / 02 / 2014
-getest op : Magento CE 1.6.2.0
+thnx out to ErikCommerce for a base structure. 
+
+this module is edited to work on all page types, not only
+the productpage. 
+
+latest release : 27 / 02 / 2014
+tested on : Magento CE 1.6.2.0
 
 
 Installatie
 ----------
-- Kopieer de "app" directory naar uw magento root.
-- Vernieuw de magento cache en log opnieuw in op uw admin panel.
-- K94 Adwords Remarketing vind u terug onder Systeem > Instellingen > K94 Adwords Remarketing
+- Copy "app" to your magento root.
+- Refresh magento cache log back in to the admin panel.
+- Settings can be found under magento system configuration.
 
 
 27-02-2014
