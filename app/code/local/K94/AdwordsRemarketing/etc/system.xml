@@ -2,13 +2,13 @@
 <config>
     <tabs>
         <adwordsremarketing>
-            <label>K94 Adwords Remarketing</label>
+            <label>Adwords Remarketing</label>
             <sort_order>1985</sort_order>
         </adwordsremarketing>
     </tabs>
 	<sections>
         	<adwordsremarketing translate="label">
-            <label>Adwords Remarketing Options</label>
+            <label>Remarketing Options</label>
             <tab>adwordsremarketing</tab>
             <sort_order>1985</sort_order>
             <show_in_default>1</show_in_default>
@@ -35,7 +35,7 @@
                         </enable>
                         <adwordsremarketing_input translate="label">
                             <label>Conversion ID</label>
-                            <comment>The unique number that's specific to your AdWords account</comment>
+                            <comment>* required</comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
