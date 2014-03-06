@@ -18,7 +18,7 @@ category-page : category
 
 latest release : 27 / 02 / 2014
 tested on : Magento CE 1.6.2.0
-
+"let me know it works for you : kurdt94@gmail.com"
 
 Installation
 ------------
