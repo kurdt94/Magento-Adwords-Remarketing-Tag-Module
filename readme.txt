@@ -6,7 +6,7 @@ thnx out to ErikCommerce for a base structure.
 this module is edited to work on all page types, not only
 the productpage. 
 
-supporting for the following ecomm_pagetype values : 
+support for the following ecomm_pagetype values : 
 ----------------------------------------------------
 default : siteview
 cart : cart
