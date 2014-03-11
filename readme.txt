@@ -30,6 +30,9 @@ Installation
 //changelog
 -----------
 
+::> 11-03-2014
+- fixed bug in javascript, double closing parameters with }; 
+
 ::> 27-02-2014
 - release 0.0.1
 - module shown in <default>
