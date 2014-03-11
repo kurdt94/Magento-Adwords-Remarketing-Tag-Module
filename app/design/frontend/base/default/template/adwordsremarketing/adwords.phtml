@@ -2,6 +2,8 @@
 if(Mage::getStoreConfig('adwordsremarketing/adwordsremarketing_group/enable',Mage::app()->getStore()) == 1):
 
 $pageIdentifier = Mage::app()->getFrontController()->getAction()->getFullActionName();
+$_prodid = '';
+$_prodprice = '';
 
 switch ($pageIdentifier) {
     case "catalog_category_view":
